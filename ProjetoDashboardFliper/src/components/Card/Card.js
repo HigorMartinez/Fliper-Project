@@ -14,7 +14,7 @@ const numberFormat = (value) =>
     }).format(value);
 
 
-const Card = (props) => {
+const Card = () => {
 
     const [isFlipped, setIsFlipped] = useState(false);
 
@@ -22,11 +22,11 @@ const Card = (props) => {
         setIsFlipped(!isFlipped);
     };
 
+    const item = useSelector((state) => state.dashboard.items[0]);
+
     const error = useSelector((state) => state.dashboard.error);
 
     const loading = useSelector((state) => state.dashboard.loading);
-
-    const item = props.wealthSummary;
 
     return (
 
