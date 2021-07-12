@@ -1,0 +1,117 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-sizing: border-box;
+    justify-content: space-between;
+    height: 21em;
+    width: 20rem;
+    padding: 0 1.5rem 0 1.5rem;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.24);
+}
+
+.error {
+    margin-top: 8.5rem;
+    font-size: 1.3rem;
+    color: #3b5cb8;
+    font-weight: 600;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header h1 {
+    font-size: 1.6rem;
+    color: #3b5cb8;
+}
+
+.header img {
+    width: 1rem;
+    height: 1.5rem;
+    margin-top: 1.6rem;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content span {
+    color: #3b5cb8;
+    font-weight: 900;
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+}
+
+.content p {
+    color: #606377;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 0.25rem;
+}
+
+.contentSection {
+    width: 100%;
+}
+
+.contentSection div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: -0.7rem;
+}
+
+.contentSection p {
+    color: #606377;
+}
+
+.contentSection span {
+    padding-top: 1rem;
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+.divider {
+    border: 0.5px solid;
+    color: #d0d4e0;
+    margin-top: 2.3rem;
+}
+
+.footer {
+  width: 100%;
+  height: 3rem;
+  margin-top: 2rem;
+  position: relative;
+}
+
+.footer button {
+    font-size: 0.8rem;
+    font-weight: 800;
+    color: #3b5cb8;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 1px 0px #606377;
+    position: absolute;
+    padding-top: 0.2rem;
+    right: 0;
+    bottom: 15px;
+    width: 100px;
+    height: 1.8rem;
+    border: 1px solid #3b5cb8;
+    border-radius: 35px;
+}
+
+.footer button:hover {
+    color: #ffffff;
+    background-color: #3b5cb8;
+}
+
+.footer button:active {
+    color: #3b5cb8;
+    background-color: #ffffff;
+}
