@@ -13,8 +13,6 @@ const App = () => {
 
   const { data, loading, error } = useQuery(GET_WEALTH_SUMMARY_DATA);
 
-  console.log(data);
-
   useEffect(() => {
     
 
