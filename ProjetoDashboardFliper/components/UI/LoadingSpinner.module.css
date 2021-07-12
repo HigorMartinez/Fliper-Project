@@ -1,0 +1,25 @@
+.loading {
+  margin-left: 5.8rem;
+  margin-top: 8rem;
+}
+
+.loading:after {
+    content: '';
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    margin: 0.5rem;
+    border-radius: 50%;
+    border: 6px solid;
+    border-color: #3b5cb8 transparent #3b5cb8 transparent;
+    animation: spinner 0.4s linear infinite;
+}
+
+@keyframes spinner {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
